@@ -1,0 +1,158 @@
+<resources>
+    <string name="app_name">PregHerb</string>
+
+    <!-- for tab labels-->
+    <string name="tab_home">HOME</string>
+    <string name="tab_tcm_list">TCM</string>
+    <string name="tab_control">CONTROL</string>
+    <string name="tab_nfc">NFC</string>
+
+    <!-- for home tab -->
+    <string name="homePageWord">JOURNEY \nTO A \nSAFE PREGNANCY</string>
+    <string name="homePageBrief">Provides Information of \nTraditional Chinese Medicine (TCM) \nwhich are Pregnancy-Related</string>
+
+    <!-- NFC fragment -->
+    <string name="nfc">NFC</string>
+
+    <string name="video">   PLAY VIDEO   </string>
+
+    <!-- TCM list fragment -->
+    <string name="mode">EXTERNAL DISPLAY MODE</string>
+    <!-- for toolbar -->
+    <string name="title_activity_tabbed_main">TabbedMainActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_guide">How to Use</string>
+
+
+    <!-- for connect fragment -->
+    <string name="popup">Choose where to play the video: </string>
+    <string name="smartphone">Smartphone</string>
+    <string name="control">CONTROL</string>
+    <string name="read">READ</string>
+    <string name="write">WRITE</string>
+    <string name="connect_inst">Enter code for a specifc action</string>
+
+
+    <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+    <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+
+
+
+    <!-- for guide on how to use -->
+    <string name="title1">Bottom Navigation Bar</string>
+    <string name="title2">NFC</string>
+    <string name="title3">BLE Remote Control</string>
+    <string name="title4">Video Watching Mode</string>
+    <string name="tut1">
+         <b>HOME:</b> home page, default interface upon app launched
+        \n\n
+        <b>TCM :</b> page with a list of traditional chinese medicine (TCM)
+        \n\n
+        <b>CONTROL:</b> page which allows remote control of TCM video playing on external screen
+        \n\n
+        <b>NFC:</b> shortcut to the "NFC and Payment Settings" of smartphone
+        \n\n
+        <b>*</b> The selected tab on the bottom navigation bar will be GREEN in colour.
+    </string>
+    <string name="tut2">
+         Used to play/ control TCM video on the external screen in TCM interactive booths in maternal clinics with such system
+        \n\n
+        To use this functionality:
+        \n1. enable NFC on smartphone
+        \n2. tap the respective NFC tag on the smartphone
+        \n\n
+        <b>*</b> usually a sound will be generated when the compatible NFC tag is detected
+    </string>
+    <string name="tut3">
+         Used to play a specific TCM video or to control currently playing videos
+        \n\n
+        To use this functionality:
+        \n1. enable Bluetooth on smartphone (at least <b>Bluetooth 4.0</b>)
+        \n2. enable external display mode in PregHerb
+        \n3. wait for "Connected" to appear at bottom of screen
+        \n4. watch a TCM video on the external screen using NFC on smartphone/ from the app interface/ using remote control tab in Bottom Navigation Bar
+        \n\n
+        <b>*</b> can only be used within short distance to TCM interactive booth in maternal clinics with such system
+    </string>
+    <string name="tut4">
+        Swipe <b>left</b> to play TCM videos on smartphone,
+        \nswipe <b>right</b> to play on external screen in TCM interactive booth in maternal clinics with such system
+    </string>
+
+
+
+    <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+    <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+
+
+
+    <!-- for tcm A1 -->
+    <string name="A1">Female Ginseng</string>
+    <string name="A1_altname">
+        <b>Chinese name:</b> \nDong Quai/ 当归 (Dang Gui)
+        \n\n<b> Scientific name:</b> \nAngelica sinensis
+    </string>
+    <string name="A1_detail">
+        <b>Uses:</b>
+        \n\n- Tonifies the blood.
+        \n\n- Lubricates the intestines.
+        \n\n- Relieve constipation.
+        \n\n- Reduce Dysmenorrhea (menstrual cramps) and help with irregular menstruation. \n
+    </string>
+    <string name="A1_warning">
+        <b>Precautions:</b>
+        \n\n- Research suggests not to intake dong quai during pregnancy or breastfeeding
+        as it could alter the activity of uterine contractions
+        and may increase the risk of abortion.
+        \n\n- Women with heavy bleeding, flu and abdominal bloating must not consume the herb.
+        \n\n- There was report of a baby born with birth defects
+        to a mother who took a product containing dong quai
+        and other herbs during the first 3 months of pregnancy.\n
+    </string>
+
+    <!-- for tcm A2 -->
+    <string name="A2">Fennel</string>
+    <string name="A2_altname">
+        <b>Chinese name:</b> \nXiao Hui Xiang/ 小茴香
+        \n\n<b> Scientific name:</b> \nFoeniculum vulgare
+    </string>
+    <string name="A2_detail">
+        <b>Uses:</b>
+        \n\n- Disperses cold.
+        \n\n- Relieves pain.
+        \n\n- Aids in digestion
+        \n\n- Dietary nitrates present in fennel help lower blood pressure and protect the heart.
+        \n\n- Selenium found in fennel appears to stimulate production of killer T-cells. This suggests that it can improve
+        the immune response to infection.
+        \n\n- Some practitioners believe it can be used to aid indigestion and increase the production of milk in nursing women
+    </string>
+    <string name="A2_warning">
+        <b>Precautions:</b>
+        \n\n- May cause uterine contractions, miscarriage or premature labour, as well as allergic reactions.
+        \n\n- Fennel is a natural emmenagogue,
+        which means it could trigger the menstrual cycle and lead to vaginal bleeding, ultimately causing miscarriage.
+        \n\n- Consume in moderation, and avoid it altogether if your doctor advises against it.
+    </string>
+
+    <!-- for tcm A3 -->
+    <string name="A3">Pot Marigold</string>
+    <string name="A3_altname">
+        <b>Chinese name:</b> \nJin Zhan Ju/ 金盏菊
+        \n\n<b> Scientific name:</b> \nCalendula officinalis
+    </string>
+    <string name="A3_detail">
+        <b>Uses:</b>
+        \n\n- Increases blood flow to skin healing wounds and rashes.
+        \n\n- Relieves blood stagnation.
+        \n\n- Reduces inflammation/ Clears toxins.
+        \n\n- Tonifies liver.
+        \n\n- Helps with estrogen deficiency. \n
+    </string>
+    <string name="A3_warning">
+        <b>Precautions:</b>
+        \n\n- Its use during pregnancy could result in harm to your developing baby.
+        \n\n- Since it is used to start menstruation, taking it internally during pregnancy could cause uterine stimulation,
+        which may result in premature labor.
+        \n\n- Avoid usage if you are breast-feeding.\n
+    </string>
+</resources>
