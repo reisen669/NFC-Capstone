@@ -1,0 +1,7 @@
+tap NFC tag anywhere also can play on external screen
+
+
+> tap from anywhere, give option to choose to play on phone or external display
+> if phone selected, play on phone, go to control tab
+> if external display selected, auto-connect, wait until connected, then play on external display, go to control tab
+> savedpref on mode (play on external or play on phone) 
