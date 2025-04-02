@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ControlFragment">
+
+    <Button
+        android:id="@+id/btnVid1"
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="120dp"
+        android:layout_centerHorizontal="true"
+        android:elevation="10dp"
+        android:background="@drawable/video_button"
+        android:textColor="@color/colorWhite"
+        android:textSize="22sp"
+        app:fontFamily="serif"
+        android:text="@string/A1"/>
+
+    <Button
+        android:id="@+id/btnVid2"
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/btnVid1"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:elevation="10dp"
+        android:background="@drawable/video_button"
+        android:textColor="@color/colorWhite"
+        android:textSize="22sp"
+        app:fontFamily="serif"
+        android:text="@string/A2"/>
+
+    <Button
+        android:id="@+id/btnVid3"
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/btnVid2"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:elevation="10dp"
+        android:background="@drawable/video_button"
+        android:textColor="@color/colorWhite"
+        android:textSize="22sp"
+        app:fontFamily="serif"
+        android:text="@string/A3"/>
+    <!--<ImageButton
+        android:id="@+id/btnVid3"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_below="@+id/btnVid2"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/round_button"
+        android:scaleType="fitCenter"
+        android:src="@drawable/pot_marigold_button"/>-->
+
+    <ImageButton
+        android:id="@+id/btnPause"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="350dp"
+        android:layout_toLeftOf="@+id/btnFastForward"
+        android:layout_marginRight="30dp"
+        android:scaleType="fitCenter"
+        android:elevation="10dp"
+        android:background="@drawable/round_button"
+        android:src="@drawable/test"/>
+
+    <ImageButton
+        android:id="@+id/btnFastForward"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="350dp"
+        android:layout_centerHorizontal="true"
+        android:elevation="10dp"
+        android:background="@drawable/round_button"
+        android:src="@drawable/fast_forward"/>
+
+    <ImageButton
+        android:id="@+id/btnRewind"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="350dp"
+        android:layout_toRightOf="@+id/btnFastForward"
+        android:layout_marginLeft="30dp"
+        android:elevation="10dp"
+        android:background="@drawable/round_button"
+        android:src="@drawable/rewind"/>
+
+    <ImageButton
+        android:id="@+id/btnVolUp"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_below="@+id/btnPause"
+        android:layout_marginTop="10dp"
+        android:layout_toLeftOf="@+id/btnVolDown"
+        android:layout_marginRight="30dp"
+        android:elevation="10dp"
+        android:background="@drawable/round_button"
+        android:src="@drawable/volume_up"/>
+
+    <ImageButton
+        android:id="@+id/btnVolDown"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_below="@+id/btnFastForward"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:elevation="10dp"
+        android:background="@drawable/round_button"
+        android:src="@drawable/volume_down"/>
+
+    <ImageButton
+        android:id="@+id/btnStop"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_below="@+id/btnRewind"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/btnVolDown"
+        android:layout_marginLeft="30dp"
+        android:elevation="10dp"
+        android:background="@drawable/round_button"
+        android:src="@drawable/stop"/>
+</RelativeLayout>

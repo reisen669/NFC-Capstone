@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".GuideFragment">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:fadeScrollbars="true"
+        android:scrollbarThumbVertical="@color/colorGrey"
+        android:scrollbarSize="5dp"
+        android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Bottom Navigation Bar -->
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardBottomNavi"
+            android:padding="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/paddingNormal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageViewTut1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/tut1"
+                    android:layout_centerHorizontal="true"/>
+
+                <TextView
+                    android:id="@+id/textViewTitle1"
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:fontFamily="serif"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:text="@string/title1"
+                    android:layout_below="@+id/imageViewTut1"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:id="@+id/textViewTut1"
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:fontFamily="serif"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:text="@string/tut1"
+                    android:layout_below="@+id/textViewTitle1"
+                    android:layout_marginTop="5dp"/>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <!-- Video Watching Mode -->
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardMode"
+            android:padding="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@+id/cardBottomNavi"
+            android:background="@color/paddingNormal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageViewTut4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/tut4"
+                    android:layout_centerHorizontal="true"/>
+
+                <TextView
+                    android:id="@+id/textViewTitle4"
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:fontFamily="serif"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:text="@string/title4"
+                    android:layout_below="@+id/imageViewTut4"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:id="@+id/textViewTut4"
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:fontFamily="serif"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:text="@string/tut4"
+                    android:layout_below="@+id/textViewTitle4"
+                    android:layout_marginTop="5dp"/>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <!-- NFC -->
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardNfc"
+            android:padding="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@+id/cardMode"
+            android:background="@color/paddingNormal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <ImageView
+                    android:id="@+id/imageViewTut2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/nfcphone"
+                    android:layout_centerHorizontal="true"/>
+
+                <TextView
+                    android:id="@+id/textViewTitle2"
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:fontFamily="serif"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:text="@string/title2"
+                    android:layout_below="@+id/imageViewTut2"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:id="@+id/textViewTut2"
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:fontFamily="serif"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:text="@string/tut2"
+                    android:layout_below="@+id/textViewTitle2"
+                    android:layout_marginTop="5dp"/>
+            </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+        <!-- BLE -->
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardBle"
+            android:padding="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@+id/cardNfc"
+            android:background="@color/paddingNormal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageViewTut3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/tut3"
+                    android:layout_centerHorizontal="true"/>
+
+                <TextView
+                    android:id="@+id/textViewTitle3"
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:fontFamily="serif"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:text="@string/title3"
+                    android:layout_below="@+id/imageViewTut3"/>
+
+                <TextView
+                    android:id="@+id/textViewTut3"
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:fontFamily="serif"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:text="@string/tut3"
+                    android:layout_below="@+id/textViewTitle3"
+                    android:layout_marginTop="5dp"/>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+        </RelativeLayout>
+    </ScrollView>
+</FrameLayout>

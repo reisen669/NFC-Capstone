@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home3"
+    android:fitsSystemWindows="true"
+    tools:context=".TabbedMainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:paddingTop="2dp"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            app:layout_scrollFlags="scroll"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:title="@string/app_name"
+            app:fontFamily="serif">
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorDarkGrey"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="250dp">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgSmartphone"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="3dp"
+            android:src="@drawable/smartphone"/>
+
+            <android.support.v7.widget.SwitchCompat
+                android:id="@+id/switchExternal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/imgSmartphone"
+                android:theme="@style/SCBSwitch" />
+
+            <ImageView
+                android:id="@+id/imgExternal"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_toEndOf="@+id/switchExternal"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/external" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/bottomNavi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="?android:attr/windowBackground"
+        app:theme="@style/bottomNaviStyle"
+        app:menu="@menu/bottom_navi"
+        app:fontFamily="serif" />
+
+</FrameLayout>
